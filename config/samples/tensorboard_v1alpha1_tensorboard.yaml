@@ -1,0 +1,7 @@
+apiVersion: tensorboard.kubeflow.org/v1alpha1
+kind: Tensorboard
+metadata:
+  name: tensorboard-sample
+spec:
+  # TODO(user): Add fields here
+  logspath: "gs://quanlinkubeflow1_tf_mnist_logs1/mnist_tutorial/"
